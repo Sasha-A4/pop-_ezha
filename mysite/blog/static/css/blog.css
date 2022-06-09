@@ -1,7 +1,9 @@
 body { 
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family: helvetica, sans-serif; 
+	background: url(../img/images.png) no-repeat;
+	background-size: cover;
 }
 
 a { 
@@ -16,9 +18,18 @@ h1 {
 }
 
 h2 {
+
     font-weight:normal;
     margin:30px 0 0;
 }
+
+h2 p {
+	#cdafbf
+	}
+
+h2 a {
+	color:#ff00d4
+	}
 
 #content { 
     float:left;
